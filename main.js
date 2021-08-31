@@ -11,6 +11,14 @@ const switchingButton = () => {
   btnSubmit.classList.toggle('d-none');
 };
 
+const timedAlert = () => {
+  myAlert.classList.toggle('d-none');
+  // hide after 3 sec
+  setTimeout(function () {
+    myAlert.classList.toggle('d-none');
+  }, 3000);
+};
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   // show sending/loading button & hide submit button
@@ -19,8 +27,8 @@ form.addEventListener('submit', (e) => {
     .then((response) => {
       // hide sending/loading button & show submit button
       switchingButton();
-      // show alert message
-      myAlert.classList.toggle('d-none');
+      // reveal alert message
+      timedAlert();
       form.reset();
       console.log('Success!', response);
     })
