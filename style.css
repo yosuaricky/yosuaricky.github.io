@@ -1,4 +1,18 @@
-h1 {
-  color: blue;
-  text-shadow: 3px 3px 1px black;
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+html {
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
 }
