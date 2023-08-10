@@ -1,2 +1,2 @@
-# ysricky.github.io
+# yosuaricky.github.io
 My Portfolio Website
