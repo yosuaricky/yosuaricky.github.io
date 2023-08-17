@@ -1,3 +1,4 @@
+toastBootstrap.show()
 // send submitted form value to google sheets
 const scriptURL =
   'https://script.google.com/macros/s/AKfycbzows9jk6sDDzGNTkbE7VAr3Au5KsEFeJPinm5HITF0aa8B4H5oTyyq2zpsoyJs37PC/exec';
