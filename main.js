@@ -1,6 +1,6 @@
 // send submitted form value to google sheets
 const scriptURL =
-  'https://script.google.com/macros/s/AKfycbzows9jk6sDDzGNTkbE7VAr3Au5KsEFeJPinm5HITF0aa8B4H5oTyyq2zpsoyJs37PC/exec';
+  'https://script.google.com/macros/s/AKfycbwyBFHJN2t6pbz_Wl4k4h9tl7KtFiqBmy-IntPrcvlUx2iocc9kzOTX3r9Q5iI5EDO7ug/exec';
 const form = document.forms['contact-form'];
 const btnSubmit = document.querySelector('.btn-submit-message');
 const btnSending = document.querySelector('.btn-sending-message');
